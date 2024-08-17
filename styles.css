@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f9cc9d;
+    color: #333;
+    height: 100vh; /* Ensure the body height is 100% of the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 136px; /* Updated padding to align with the image */
+    flex-grow: 1; /* Allow container to grow and take available space */
+}
+
+.text-container {
+    max-width: 562px; /* Set max width according to the image */
+}
+
+.headline {
+    font-size: 36px; /* Updated font size */
+    font-weight: 700;
+    line-height: 54px; /* Updated line height */
+    margin-bottom: 10px; /* Adjusted margin */
+}
+
+.subtext {
+    font-size: 20px; /* Updated font size */
+    font-weight: 500;
+    line-height: 32px; /* Updated line height */
+    margin-bottom: 15px; /* Adjusted margin */
+}
+
+.show-me {
+    font-weight: bold;
+    margin-bottom: 15px; /* Maintain margin */
+}
+
+.email-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; /* Maintain margin */
+}
+
+input[type="email"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #333;
+    width: 250px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer-text {
+    font-size: 12px;
+    color: #fff;
+    margin-top: 15px; /* Adjust margin for spacing */
+}
+
+.image-container img {
+    max-width: 300px; /* Adjust size to fit the layout */
+    height: auto;
+    margin-left: 20px; /* Adjust margin to position the image as in the screenshot */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 136px; /* Adjust padding to align with the image */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically center the content */
+    flex-direction: row; /* Ensure the footer items are arranged horizontally */
+    height: 200px; /* Set a specific height for the footer to center the content */
+}
+
+.footer-left,
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the content vertically */
+}
+
+.footer-left p,
+.footer-right p {
+    margin-bottom: 10px;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* Center the social icons */
+    align-items: center;
+    margin-top: 0.5px; /* Adjust spacing between text and icons */
+    margin-left: 110px;
+}
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+}
+
+.contact-email {
+    margin-top: 40px; /* Adjust spacing for better alignment */
+}
